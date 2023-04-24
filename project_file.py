@@ -42,7 +42,6 @@ disease = ['Fungal infection', 'Allergy', 'GERD', 'Chronic cholestasis', 'Drug R
 l2 = []
 for x in range(0, len(l1)):
     l2.append(0)
-# adds data
 
 # TRAINING DATA df -------------------------------------------------------------------------------------
 df = pd.read_csv("Training.csv")
